@@ -112,7 +112,7 @@ flowchart LR
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/<your-name>/PerfLens.git", from: "0.1.0")
+    .package(url: "https://github.com/peter123023/PerfLens.git", from: "0.1.0")
 ]
 ```
 
