@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcresult
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+# 库项目不锁定依赖版本，由接入方决定
+Package.resolved
+
+# 本地构建产物（仓库根目录下的验证用 DerivedData）
+.build-demo/
+
+# CocoaPods（如后续提供 Pod 方式接入）
+Pods/
+!Podfile
+!Podfile.lock
+
+# 编辑器与工具缓存
+.idea/
+.vscode/
+*.swp
+*~
+.swiftlintcache
